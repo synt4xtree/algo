@@ -65,13 +65,13 @@ class Words implements Comparable<Words>{
         for(int i=0; i<N; i++)
             words_set.add(br.readLine());
             
-            //ÇØ½¬¼Â¿¡ Áßº¹¾øÀÌ ¸ğÀº´Ù.
+            //í•´ì‰¬ì…‹ì— ì¤‘ë³µì—†ì´ ëª¨ì€ë‹¤.
          
         ArrayList<String> words = new ArrayList<String>(words_set);
         Collections.sort(words);
-        //´Ü¾î¼øÀ¸·Î Á¤·Ä
+        //ë‹¨ì–´ìˆœìœ¼ë¡œ ì •ë ¬
         Collections.sort(words, new lengthComparator());
-        //±æÀÌ¼øÀ¸·Î ´Ù½Ã Á¤·Ä
+        //ê¸¸ì´ìˆœìœ¼ë¡œ ë‹¤ì‹œ ì •ë ¬
         
         for(String s : words)
             System.out.println(s);

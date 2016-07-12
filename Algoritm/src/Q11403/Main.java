@@ -3,7 +3,7 @@ package Q11403;
 import java.util.Scanner;
 
 /* 
- * ÇÃ·ÎÀÌµå ¿Í¼£ ¾Ë°í¸®Áò
+ * í”Œë¡œì´ë“œ ì™€ìƒ¬ ì•Œê³ ë¦¬ì¦˜
  */
 
 public class Main {
