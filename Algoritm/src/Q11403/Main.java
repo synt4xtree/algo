@@ -2,8 +2,11 @@ package Q11403;
 
 import java.util.Scanner;
 
+/* 
+ * 플로이드 와샬 알고리즘
+ */
+
 public class Main {
-	// 플로이드 와샬 알고리즘
 	public static void main( String[] args ){
 		Scanner sc = new Scanner( System.in );
 		int n = sc.nextInt();
