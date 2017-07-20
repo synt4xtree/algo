@@ -39,7 +39,6 @@ public class Main {
 			
 			sb.append( ( matcher.matches() ? "YES" : "NO" ) + "\n");
 		}
-		
 		System.out.println( sb );
 		br.close();
 	}
